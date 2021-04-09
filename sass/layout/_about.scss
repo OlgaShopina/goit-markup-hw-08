@@ -1,0 +1,135 @@
+.about {
+  background: var(--white-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.about__item:not(:last-child) {
+  padding-bottom: 30px;
+}
+
+.about__thumb {
+  width: 450px;
+  height: 120px;
+  left: 15px;
+  top: 520px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.about__icon {
+  width: 66px;
+  height: 70px;
+}
+
+.about__title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+
+.about__description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+@media screen and (min-width: 768px) {
+  .about__thumb {
+    width: 354px;
+    height: 120px;
+  }
+
+  .about__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+  }
+
+  .about__item {
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-basis: calc(100% / 2 - 30px);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about {
+    padding-top: var(--section-pt);
+  }
+
+  .about__thumb {
+    width: 270px;
+    height: 120px;
+  }
+  .about__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+  }
+
+  .about__item {
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-basis: calc(100% / 4 - 30px);
+  }
+}
+
+/*
+.about__title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+
+.about__description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.about {
+  background: var(--white-color);
+  padding-top: var(--section-pt);
+}
+
+.about__list {
+  display: flex;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.about__item {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc(100% / 4 - 30px);
+}
+
+.about__thumb {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+.about__icon {
+  width: 66px;
+  height: 70px;
+}
+*/
