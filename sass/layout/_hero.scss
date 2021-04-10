@@ -1,5 +1,6 @@
 .hero {
-  max-width: 480px;
+  min-width: 480px;
+  height: 400px;
   padding: 118px 0;
   background-color: var(--dark-background);
   background-image: linear-gradient(
@@ -56,6 +57,52 @@
   border-radius: 4px;
   cursor: pointer;
   border: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    min-width: 768px;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../image/HERO/Header-tab.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../image/HERO/Header-tab@2x.jpg);
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    min-width: 1200px;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../image/HERO/Hero-dt.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../image/HERO/Hero-dt@2x.jpg);
+    }
+  }
 }
 
 /*
