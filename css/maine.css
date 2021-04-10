@@ -1642,6 +1642,19 @@ img {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .portfolio {
+    padding-top: 94px;
+    padding-bottom: var(--section-pb);
+  }
+  .filters__list {
+    width: 611px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: inherit;
+  }
+}
+
 /*.portfolio {
   border-top: 1px solid #ececec;
   padding-top: 60px;
