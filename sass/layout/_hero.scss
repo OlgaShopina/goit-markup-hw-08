@@ -1,6 +1,6 @@
 .hero {
   min-width: 100vw;
-  height: 400px;
+  height: auto;
   padding: 118px 0;
   background-color: var(--dark-background);
   background-image: linear-gradient(
@@ -62,7 +62,7 @@
 @media screen and (min-width: 768px) {
   .hero {
     min-width: 100vw;
-    height: 600px;
+    height: auto;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
@@ -86,6 +86,7 @@
 @media screen and (min-width: 1200px) {
   .hero {
     min-width: 100vw;
+    height: 600px;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
