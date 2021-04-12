@@ -5,7 +5,7 @@
 }
 
 .about__item:not(:last-child) {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .about__thumb {
@@ -55,6 +55,9 @@
   }
 
   .about__item {
+    &:not(:last-child) {
+      margin-bottom: 0px;
+    }
     margin-left: 30px;
     margin-top: 30px;
     flex-basis: calc(100% / 2 - 30px);
@@ -79,9 +82,14 @@
   }
 
   .about__item {
+    margin-bottom: 0px;
     margin-left: 30px;
     margin-top: 30px;
     flex-basis: calc(100% / 4 - 30px);
+
+    &:not(:last-child) {
+      margin-bottom: 0px;
+    }
   }
 }
 
